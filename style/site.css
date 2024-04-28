@@ -1,0 +1,31 @@
+body>div>#d1 {
+    background-color: brown;
+    width: 260px;
+    height: 120px;
+    transform: skew(20deg);
+    text-align: center;
+    margin: 34vh;
+}
+
+div#d1+div {
+    background-color: rgb(50, 2, 101);
+    width: 44px;
+    height: 130px;
+    transform: skewy(70deg);
+    margin-top: -44vh;
+    margin-left: 30.3vh;
+}
+
+div#d1+div+div {
+    background-color: chartreuse;
+    width: 260px;
+    height: 133px;
+    /* transform: skewy(40deg); */
+    margin-left: 37.8vh;
+    margin-top: -12vh;
+}
+
+body>div:hover {
+    transform: rotatex(360deg)rotate(160deg);
+    transition: 8s;
+}
